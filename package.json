@@ -1,0 +1,18 @@
+{
+  "name": "language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "variables": "node ./dist/variable.js",
+    "branch": "node ./dist/branch.js",
+    "loop": "node ./dist/loop.js",
+    "function": "node ./dist/function.js",
+    "class": "node ./dist/class.js",
+    "array": "node ./dist/array.js",
+    "spread": "node ./dist/spread.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
